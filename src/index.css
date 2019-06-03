@@ -11,6 +11,12 @@
 
     h1 {
       text-align: center;
+      color: whitesmoke;
+      background-color: darkorchid
+    }
+
+    h2, p {
+      text-align: center;
     }
 
     .list {

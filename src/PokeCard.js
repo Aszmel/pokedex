@@ -10,9 +10,7 @@ class PokeCard extends Component {
         <p>Name: {pokemons[queue].name}</p>
         <p>Type: {pokemons[queue].type}</p>
         <img alt="pokemon" src={`${pokeApi}${img}.png`} />
-        <p className="baseline">
-          Experience: {pokemons[queue].base_experience}
-        </p>
+        <p>Experience: {pokemons[queue].base_experience}</p>
       </div>
     );
   }

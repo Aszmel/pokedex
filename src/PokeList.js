@@ -24,12 +24,6 @@ class PokeList extends Component {
           <PokeCard img={ranPic()} queue={ranPok()} />
           <PokeCard img={ranPic()} queue={ranPok()} />
         </div>
-        <div className="list">
-          <PokeCard img={ranPic()} queue={ranPok()} />
-          <PokeCard img={ranPic()} queue={ranPok()} />
-          <PokeCard img={ranPic()} queue={ranPok()} />
-          <PokeCard img={ranPic()} queue={ranPok()} />
-        </div>
       </div>
     );
   }
