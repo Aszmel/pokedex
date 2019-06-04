@@ -1,19 +1,15 @@
-import React from "react";
-import "./App.css";
-import PokeList from "./PokeList";
+import React, { Component } from 'react';
+import Pokegame from './Pokegame';
+import './App.css';
 
-function App() {
-  return (
-    <div className="root">
-      <h1>Pokedex game</h1>
-      <h2>Winner!</h2>
-      <p>Sum of experience is: </p>
-      <PokeList />
-      <h2>Loser</h2>
-      <p>Sum of experience is: </p>
-      <PokeList />
-    </div>
-  );
+class App extends Component {
+	render() {
+		return (
+			<div className="App">
+				<Pokegame />
+			</div>
+		);
+	}
 }
 
 export default App;
